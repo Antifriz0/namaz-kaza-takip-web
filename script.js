@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const c=window.APP_CONFIG||{};document.querySelectorAll("[data-support-email]").forEach(e=>{e.textContent=c.supportEmail||"destek@example.com";if(e.tagName==="A")e.href=`mailto:${c.supportEmail||"destek@example.com"}`});document.querySelectorAll("[data-last-updated]").forEach(e=>e.textContent=c.lastUpdated||"16 Temmuz 2026")});
